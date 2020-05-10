@@ -22,11 +22,11 @@ set -e
 echo "Installing category System"
 
 sudo pacman -S --noconfirm --needed accountsservice
-# sudo pacman -S --noconfirm --needed arandr
+sudo pacman -S --noconfirm --needed arandr
 sudo pacman -S --noconfirm --needed baobab
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dconf-editor
-# sudo pacman -S --noconfirm --needed dmenu
+sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 yay -S --noconfirm font-manager
@@ -58,8 +58,8 @@ sudo pacman -S --noconfirm --needed nemo-share
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed nitrogen
 # sudo pacman -S --noconfirm --needed numlockx
-# yay -S --noconfirm pamac-aur
-# sudo pacman -S --noconfirm --needed picom
+yay -S --noconfirm pamac-aur
+sudo pacman -S --noconfirm --needed picom
 sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed sane
@@ -78,25 +78,11 @@ sudo pacman -S --noconfirm --needed volumeicon
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed xdo
 sudo pacman -S --noconfirm --needed xdotool
-# sudo pacman -S --noconfirm --needed xfce4-appfinder
-# sudo pacman -S --noconfirm --needed xfce4-notifyd
-# sudo pacman -S --noconfirm --needed xfce4-power-manager
-# sudo pacman -S --noconfirm --needed xfce4-settings
-
-echo "DESKTOP SPECIFIC APPLICATIONS "
-
-# yay -S --noconfirm i3blocks
-# yay -S --noconfirm i3exit
-# yay -S --noconfirm python-pywal
+sudo pacman -S --noconfirm --needed xfce4-appfinder
+sudo pacman -S --noconfirm --needed xfce4-notifyd
+sudo pacman -S --noconfirm --needed xfce4-power-manager
+sudo pacman -S --noconfirm --needed xfce4-settings
 sudo pacman -S --noconfirm --needed yad
-
-###############################################################################################
-
-# installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils  uudeview  arj cabextract file-roller
-
-###############################################################################################
-
 
 echo "################################################################"
 echo "#### System Software installed  #########"

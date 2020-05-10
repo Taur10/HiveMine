@@ -1,31 +1,24 @@
-# ArcoLinuxD i3wm desktop
+# Lightweight i3wm desktop
 
-# Start by installing the latest ArcoLinuxD installation
+Start by installing the latest an Arch based linux with a light desktop such as Xfce or LXDE or no desktop at all.
+Next, cd into the directory you downloaded the scripts to. Finally run the scripts in order from 000 to 250 by typing the
+script name if your base uses Bash, or typing bash and then the script name if your base uses ZSH. Higher number scripts
+can be run if you feel it will benefit your system.
 
-Download at https://arcolinux.info and burn to usb
-
-# Follow installation tutorials on
-
-Tutorials on https://arcolinuxd.com
 
 # Vision
 
-This github will not only install the desktop.
-But we will install all needed software.
+Inspired by Arcos-D, the first example of using a script to replace the desktop with one of my choice (i3), this is my version.
+All scripts started as Eric Dubois Arcos-D scripts for i3, but have been reworked by me. Shorter names are easier to type,
+the software selection is chosen with an eye towards a medium weight system (and not quite what I would do as this is the
+generic version), and AUR installation has been simplified. All software selected should be GTK or CLI to help keep the system
+light.
 
-We will also make it very easy to have a desktop you can be proud of.
-All icons, themes, cursors, wallpapers, conky's  will be there.
-Just select them.
+This github will not only install the i3 window manager, but also a basic software package (browser, email, torrent, file
+manager and music player), cursors, themes and icons.
 
-Change the scripts to give it a personal touch.
-Hashtag out the applications you do not want.
-
-Copy/paste lines and add applications you do want.
-
-And then run the scripts.
-
-If we would make an iso, you would not have this choice, this freedom.
-Now you do.
+Change the scripts to give it a personal touch, hastag out or delete the applications you don't want, copy/paste or type
+lines to add the applications you do want. Then simply run the scripts.
 
 Learn, have fun and enjoy.
 
@@ -39,26 +32,3 @@ Tutorials about ArcoLinux iso (Xfce, Openbox and i3) : https://arcolinux.com
 Tutorials about ArcoLinuxD iso (any desktop) : https://arcolinuxd.com
 
 Forum : https://arcolinuxforum.com
-
-
-# Social Media
-
-Facebook : https://www.facebook.com/arcolinuxd/
-
-Facebook : https://www.facebook.com/groups/arcolinux/
-
-Flickr   : https://www.flickr.com/photos/arcolinux/
-
-Twitter  : https://twitter.com/arcolinux
-
-Instagram: https://www.instagram.com/arcolinux/
-
-Linked in: https://www.linkedin.com/in/arcolinux
-
-Youtube  : https://www.youtube.com/erikdubois
-
-Mewe Page : https://mewe.com/page/5c54756fb28a87238fa79302
-
-Mewe Group : https://mewe.com/group/5bbc4577a40f3002b313671d
-
-Mewe ArcoLinux : https://mewe.com/profile/5bc022ac70fb13619f97af90
