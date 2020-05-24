@@ -1,34 +1,24 @@
-# Lightweight i3wm desktop
+The goal here is to create a lightweight i3 package that a someone coming from a desktop environment can easily use without filling it with useles cruft.
 
-Start by installing the latest an Arch based linux with a light desktop such as Xfce or LXDE or no desktop at all.
-Next, cd into the directory you downloaded the scripts to. Finally run the scripts in order from 000 to 250 by typing the
-script name if your base uses Bash, or typing bash and then the script name if your base uses ZSH. Higher number scripts
-can be run if you feel it will benefit your system.
+Keybindings are mostly i3 default with a few tweaks and the addition of application specific keybindings.
 
+Configs should be renamed before installing into the appropriate folder indicated by the filename suffix. These configs are designed to provide a unified appearance using the colours of the Anarchy Installer logo.
 
-# Vision
-
-Inspired by Arcos-D, the first example of using a script to replace the desktop with one of my choice (i3), this is my version.
-All scripts started as Eric Dubois Arcos-D scripts for i3, but have been reworked by me. Shorter names are easier to type,
-the software selection is chosen with an eye towards a medium weight system (and not quite what I would do as this is the
-generic version), and AUR installation has been simplified. All software selected should be GTK or CLI to help keep the system
-light.
-
-This github will not only install the i3 window manager, but also a basic software package (browser, email, torrent, file
-manager and music player), cursors, themes and icons.
-
-Change the scripts to give it a personal touch, hastag out or delete the applications you don't want, copy/paste or type
-lines to add the applications you do want. Then simply run the scripts.
-
-Learn, have fun and enjoy.
-
-
-# Websites
-
-Information : https://arcolinux.info
-
-Tutorials about ArcoLinux iso (Xfce, Openbox and i3) : https://arcolinux.com
-
-Tutorials about ArcoLinuxD iso (any desktop) : https://arcolinuxd.com
-
-Forum : https://arcolinuxforum.com
+Included apps should be:
+LXDM-GTK (display manager)
+dmenu (app launcher)
+rofi (app launcher and window manager)
+scrot (screenshot)
+Allacritty (terminal emulator)
+Lynx (cli web browser)
+Palemoon (gui web browser)
+Mutt (cli email client)
+Evolution (gui email client)
+Ranger (cli file manager)
+Nemo (gui file manager)
+MOC (cli music player)
+Deadbeef (gui music player)
+Rtorrent (cli torrent client)
+Transmission-GTK (gui torrent client)
+Eye of Gnome (gui image viewer)
+Nitrogen (gui wallpaper manager)
